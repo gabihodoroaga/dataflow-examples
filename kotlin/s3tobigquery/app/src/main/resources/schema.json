@@ -1,0 +1,20 @@
+{
+    "fields": [
+        {
+            "name": "uuid",
+            "type": "STRING"
+        },
+        {
+            "name": "receivetime",
+            "type": "TIMESTAMP"
+        },
+        {
+            "name": "col1",
+            "type": "STRING"
+        },
+        {
+            "name": "col2",
+            "type": "STRING"
+        }
+    ]
+}
