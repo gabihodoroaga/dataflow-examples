@@ -1,7 +1,7 @@
 # S3 to BgQuery
 
 This is an complex example of how batch import from S3 into BigQuery using
-Apache Beam and DataFlow. You can find posts related to this repo at [hodo.dev](https://hodo.dev/tags/dataflow/)
+Apache Beam and DataFlow. You can find posts related to this repo at [hodo.dev](https://hodo.dev/tags/dataflow/).
 
 ## Features
 
