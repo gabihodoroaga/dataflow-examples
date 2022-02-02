@@ -1,7 +1,7 @@
 # S3 to BgQuery
 
 This is an complex example of how batch import date from S3 into BigQuery using
-Apache Beam and DataFlow.
+Apache Beam and DataFlow. You can find posts related to this repo at [hodo.dev](https://hodo.dev/tags/dataflow/)
 
 ## Features
 
@@ -18,37 +18,20 @@ Apache Beam and DataFlow.
 1. Write to BigQuery
 1. Write the ".parsed" file back to the bucket
 
+## How ro run
 
-AWS Console 
-- create a new user `dataflow_user`
-- save the key and secret
-- create a new bucket `dataflow-example`
-
-- add bucket policy 
-
-```json
-
-```
-
-Crate a .boto file with this conects
-
-```txt
-[Credentials]
-aws_access_key_id = [AWS_ACCESS_KEY_ID]
-aws_secret_access_key = [AWS_SECRET_ACCESS_KEY]
-```
-
-Upload sample files to the bucket
+Run locally:
 
 ```bash
-BOTO_CONFIG=.boto gsutil cp -r 2022 s3://dataflow-example/ 
+./run_local.sh 
 ```
 
-
-1 643 809 249 000 000 000
-
-
+Run on GCP Dataflow:
 
 ```bash
-./run_local.sh
+./run_dataflow.sh
 ```
+
+## Author
+
+Gabriel Hodoroaga [hodo.dev](https://hodo.dev)
