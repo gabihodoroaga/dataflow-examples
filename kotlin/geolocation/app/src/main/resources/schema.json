@@ -1,0 +1,32 @@
+{
+    "fields": [
+        {
+            "name": "type",
+            "type": "STRING"
+        },
+        {
+            "name": "data",
+            "type": "STRING"
+        },
+        {
+            "name": "lat",
+            "type": "FLOAT64"
+        },
+        {
+            "name": "lon",
+            "type": "FLOAT64"
+        },
+        {
+            "name": "city",
+            "type": "STRING"
+        },
+        {
+            "name": "region",
+            "type": "STRING"
+        },
+        {
+            "name": "country",
+            "type": "STRING"
+        }
+    ]
+}
