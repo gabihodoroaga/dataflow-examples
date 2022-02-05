@@ -1,7 +1,8 @@
 # geolocation
 
-This project is an example of how to convert find the country, region and the city from latitude and longitude
-while streaming data from Pub/Sub to BigQuery using Dataflow and Apache Beam.
+This project is an example of how to find the country, region and the city from latitude and longitude
+while streaming data from Pub/Sub to BigQuery using Dataflow and Apache Beam. You can find more by
+reading this blog post [hodo.dev](https://hodo.dev/posts/post-36-gcp-dataflow-geolocation/)
 
 ## How to setup and run
 
